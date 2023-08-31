@@ -13,7 +13,7 @@
                     line-height: 1.5;
                     color: #212529;
                     text-align: left;
-                    background-color: black;
+                    background-color: #c7b6c6;
                 }
 
                 * {
@@ -29,7 +29,7 @@
                 } 
                 
                 nav ul {
-                    background:black;
+                    background: #eac1e8;
                     padding: 0 20px;
                     list-style: none;
                     position: relative;
