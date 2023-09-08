@@ -11,7 +11,7 @@ class PetugasController extends Controller
      */
     public function index()
     {
-        return view('perpustakaan.petugas');
+        return view('layouts.perpustakaan.anggota');
     }
 
     /**

@@ -25,3 +25,20 @@ Route::get('/anggota', [AnggotaController::class, 'index']);
 Route::get('petugas', [PetugasController::class, 'index']);
 
 Route::get('buku', [BukuController::class, 'index']);
+
+/*Route::get('/about', function () {
+    return view('layouts.master');
+});
+
+Route::get('/content', function () {
+    return view('layouts.content.index');
+});
+
+Route::get('/create', function () {
+    return view('layouts.content.create');
+});*/
+
+
+Route::get('/tabel', function () {
+    return view('layouts.tabel.tabel');
+});
