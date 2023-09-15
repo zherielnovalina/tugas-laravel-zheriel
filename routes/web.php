@@ -5,6 +5,7 @@ use App\Http\Controllers\AnggotaController;
 use App\Http\Controllers\PetugasController;
 use App\Http\Controllers\BukuController;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,14 +18,14 @@ use App\Http\Controllers\BukuController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts.perpustakaan.start');
 });
 
-Route::get('/anggota', [AnggotaController::class, 'index']);
+Route::resource('anggota', AnggotaController::class);
 
-Route::get('petugas', [PetugasController::class, 'index']);
+Route::resource('petugas', PetugasController::class);
 
-Route::get('buku', [BukuController::class, 'index']);
+Route::resource('buku', BukuController::class);
 
 /*Route::get('/about', function () {
     return view('layouts.master');
@@ -38,7 +39,3 @@ Route::get('/create', function () {
     return view('layouts.content.create');
 });*/
 
-
-Route::get('/tabel', function () {
-    return view('layouts.tabel.tabel');
-});

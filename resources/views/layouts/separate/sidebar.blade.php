@@ -34,28 +34,29 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
+          <li class="nav-item menu-open">
+            <a href="/" class="nav-link active">
+              <p>
+                Starter Pages
+              </p>
+            </a>
+          </li>
           <li class="nav-item">
-            <a href="/anggota" class="nav-link">
+            <a href="/anggota/create" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>Form Anggota</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="/buku" class="nav-link">
+            <a href="/buku/create" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>Form Buku</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="/petugas" class="nav-link">
+            <a href="/petugas/create" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>Form Petugas</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="/tabel" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
-              <p>Tabel Data</p>
             </a>
           </li>
         </ul>
